@@ -16,7 +16,7 @@ class SplashActivity: AppCompatActivity() {
         supportActionBar?.hide()
 
         val runnable = {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         }
