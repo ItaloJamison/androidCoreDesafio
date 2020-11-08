@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.content.Intent
 import android.os.Handler
 import android.os.Looper
-import com.example.androidcoredesafio.ui.login.LoginActivity
 
 
 class SplashActivity: AppCompatActivity() {
@@ -16,7 +15,7 @@ class SplashActivity: AppCompatActivity() {
         supportActionBar?.hide()
 
         val runnable = {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }
