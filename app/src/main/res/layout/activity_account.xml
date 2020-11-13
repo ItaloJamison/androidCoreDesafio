@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/loginToolbar"
+        android:layout_width="match_parent"
+        app:titleTextColor="@color/white"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:theme="@style/ToolBarStyle"
+        app:title="@string/app_name"
+        />
+
+    <fragment
+        android:id="@+id/navHostController"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        app:defaultNavHost="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:navGraph="@navigation/nav_graph"
+        tools:ignore="FragmentTagUsage" />
+
+
+</LinearLayout>

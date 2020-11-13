@@ -1,6 +1,20 @@
 <resources>
-    <string name="app_name">Digital House Foods</string>
-    <string name="title_activity_home_load">FullscreenActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+        <string name="app_name">Digital House Foods</string>
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="empty_fragment">Hello blank fragment</string>
+        <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip .</string>
+        <string name="tv_salada">Salada com molho Gengibre</string>
+        <string name="password">Password</string>
+        <string name="email">Email</string>
+        <string name="log_in">Log In</string>
+        <string name="or">Or</string>
+        <string name="register">Register</string>
+        <string name="name">Name</string>
+        <string name="repeat_password">Repeat password</string>
+        <string name="main_dishes">Pratos Principais</string>
+        <string name="tony_roma">Tony Roma\'s</string>
+        <string name="restaurant">Restaurante</string>
+        <string name="timer">Horario</string>
+        <string name="location">Endereço</string>
+        <string name="restaurant_pic">res</string>
 </resources>

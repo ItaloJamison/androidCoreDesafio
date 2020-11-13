@@ -15,12 +15,12 @@ class SplashActivity: AppCompatActivity() {
         supportActionBar?.hide()
 
         val runnable = {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, AccountActivity::class.java)
             startActivity(intent)
             finish()
         }
-        // depois de 5 segundos vai para tela de login
-        Handler(Looper.getMainLooper()).postDelayed(runnable,5000)
+        // depois de 2 segundos vai para tela de login
+        Handler(Looper.getMainLooper()).postDelayed(runnable,2000)
 
     }
 }
